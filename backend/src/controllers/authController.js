@@ -3,7 +3,7 @@ import User from '../models/User.js';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 import Session from '../models/Sessions.js';
-import cookieParser from 'cookie-parser';
+
 
 const ACCESS_TOKEN_TTL = '30m'; // Thời gian sống của access token
 const REFRESH_TOKEN_TTL = 14 * 24 * 60 * 60 * 1000; // Thời gian sống của refresh token
